@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{document.querySelectorAll(".wp-block-image-slider").forEach((e=>{const t=e.querySelectorAll("img"),i=e.getAttribute("data-transition-duration");let l=0;t[l].classList.add("visible"),setInterval((()=>{t[l].classList.remove("visible"),l=(l+1)%image.length,t[l].classList.add("visible")}),i)}))}));

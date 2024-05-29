@@ -6,10 +6,20 @@
 	"title": "Image Slider",
 	"category": "widgets",
 	"icon": "images-alt2",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "An image slider for displaying business cards in a page or post",
 	"example": {},
 	"supports": {
 		"html": false
+	},
+  	"attributes": {
+	  "images": {
+		"type": "array",
+		"default": []
+	  },
+	  "transidtionDuration": {
+		"type": "number",
+		"default": 3000
+	  }
 	},
 	"textdomain": "image-slider",
 	"editorScript": "file:./index.js",

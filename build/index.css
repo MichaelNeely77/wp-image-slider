@@ -1,1 +1,1 @@
-.wp-block-create-block-image-slider{border:1px dotted red}
+.wp-block-image-slider .slider-preview{display:flex;flex-wrap:wrap;gap:10px}.wp-block-image-slider .slider-preview img{height:100px;-o-object-fit:cover;object-fit:cover;width:100px}
