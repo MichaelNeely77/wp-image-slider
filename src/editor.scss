@@ -4,6 +4,15 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-image-slider {
-	border: 1px dotted #f00;
+.wp-block-image-slider {
+  .slider-preview {
+	display:flex;
+	flex-wrap: wrap;
+	gap:10px;
+	img {
+	  width: 100px;
+	  height: 100px;
+	  object-fit: cover;
+	}
+  }
 }

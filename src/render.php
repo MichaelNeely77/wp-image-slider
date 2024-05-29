@@ -12,7 +12,7 @@ function render_image_slider_block( $attributes ) {
 
 	ob_start();
 ?>
-<div class="wp-image-slider" data-trasition-direction="<?php echo esc_attr( $duration ) ?>">
+<div class="wp-block-image-slider" data-trasition-direction="<?php echo esc_attr( $duration ) ?>">
 	<?php foreach ($images as $image) : ?>
 		<img src="<?php echo esc_url($image['url']); ?>" alt="">
 	<?php endforeach ?>
