@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/image-slider",
+  "version": "0.1.0",
+  "title": "Image Slider",
+  "category": "widgets",
+  "icon": "images-alt2",
+  "description": "An image slider for displaying business cards in a page or post",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "transidtionDuration": {
+      "type": "number",
+      "default": 3000
+    }
+  },
+  "textdomain": "image-slider",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css",
+  "script": "file:./build/frontend.js",
+  "render": "file:./src/render.php"
+}

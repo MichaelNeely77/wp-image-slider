@@ -16,7 +16,6 @@ function render_image_slider_block( $attributes ) {
 	<?php foreach ($images as $image) : ?>
 		<img src="<?php echo esc_url($image['url']); ?>" alt="">
 	<?php endforeach ?>
-
 </div>
 <?php
 	return ob_get_clean();
